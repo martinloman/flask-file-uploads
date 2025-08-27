@@ -26,7 +26,7 @@ python app.py
    ```
 py app.py
    ```
-3. Öppna webbläsaren och gå till `http://localhost:5000`
+3. Öppna webbläsaren och gå till `http://localhost:5000` eller `http://127.0.0.1:5000`
 
 
 ## Noteringar
