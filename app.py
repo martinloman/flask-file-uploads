@@ -10,8 +10,9 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER  # Sätter uppladdningsmappen i Flas
 app.secret_key = 'supersecretkey'
 
 def allowed_file(filename):
-    return '.' in filename and \
-           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+    is_allowed = '.' in filename and \
+                 filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+    return is_allowed
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
