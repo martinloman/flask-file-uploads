@@ -12,7 +12,7 @@ Detta projekt visar hur man hanterar filuppladdningar med Flask och ett HTML-for
 
 1. Installera beroenden:
 ```
-    py -m pip install -r requirements.txt
+    pip install -r requirements.txt
    ```
    eller
    ```
